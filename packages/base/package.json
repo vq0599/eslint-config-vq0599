@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vqzfss",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint Config for ECMAScript",
   "keywords": [
     "eslint"
