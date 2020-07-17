@@ -13,7 +13,7 @@
     "url": "git+https://github.com/vq0599/eslint-config-vqzfss.git"
   },
   "scripts": {},
-  "devDependencies": {
+  "peerDependencies": {
     "eslint": "^7.4.0"
   }
 }
