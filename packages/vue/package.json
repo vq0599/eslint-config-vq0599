@@ -16,7 +16,7 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "devDependencies": {
+  "dependencies": {
     "eslint-config-vqzfss": "^0.0.1",
     "eslint-plugin-vue": "^6.2.2"
   }
