@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-vqzfss-vue",
+  "version": "0.0.0",
+  "description": "ESLint Config for Vue.js",
+  "keywords": [
+    "vue",
+    "eslint"
+  ],
+  "author": "dehaohuang <vq0599@outlook.com>",
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vq0599/eslint-config-vqzfss.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint-config-vqzfss": "^0.0.0",
+    "eslint-plugin-vue": "^6.2.2"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-vqzfss",
+  "version": "0.0.0",
+  "description": "ESLint Config for ECMAScript",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "dehaohuang <vq0599@outlook.com>",
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vq0599/eslint-config-vqzfss.git"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "eslint": "^7.4.0"
+  }
+}
