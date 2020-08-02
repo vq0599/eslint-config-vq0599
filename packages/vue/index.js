@@ -5,5 +5,15 @@ module.exports = {
   ],
   rules: {
     "vue/no-v-html": "off",
-  }
+  },
+  settings: {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".vue"
+        ]
+      }
+    }
+  },
 }
