@@ -13,7 +13,7 @@
     "url": "git+https://github.com/vq0599/eslint-config-vqzfss.git"
   },
   "scripts": {
-    "test": "npx eslint -c index.js test.js"
+    "test": "npx eslint -c index.js case.spec.js"
   },
   "peerDependencies": {
     "eslint": "^7.4.0"
