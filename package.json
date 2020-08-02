@@ -7,5 +7,9 @@
   "license": "MIT",
   "devDependencies": {
     "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "publish-latest": "lerna publish",
+    "publish-alpha": "lerna publish --dist-tag alpha"
   }
 }
