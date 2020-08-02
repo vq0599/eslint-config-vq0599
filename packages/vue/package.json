@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vqzfss-vue",
-  "version": "0.0.4",
+  "version": "0.0.5-alpha.0",
   "description": "ESLint Config for Vue.js",
   "keywords": [
     "vue",
@@ -17,7 +17,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "eslint-config-vqzfss": "^0.0.4",
+    "eslint-config-vqzfss": "^0.0.5-alpha.0",
     "eslint-plugin-vue": "^6.2.2"
   }
 }
