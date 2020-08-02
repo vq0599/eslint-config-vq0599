@@ -15,5 +15,8 @@
   "scripts": {},
   "peerDependencies": {
     "eslint": "^7.4.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0"
   }
 }
