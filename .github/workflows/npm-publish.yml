@@ -1,0 +1,29 @@
+# This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
+# For more information see: https://help.github.com/actions/language-and-framework-guides/publishing-nodejs-packages
+
+name: Release
+
+on:
+  push:
+    branches:
+    - develop
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    if: ${{ !contains(github.event.head_commit.message, '--SKIP-CI') }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Release & Tag
+        run: |
+          git config --global user.email "vq0599@outlook.com"
+          git config --global user.name "vq0599"
+          yarn version --patch
+      - name: Publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_AUTH_TOKEN }}
+      - name: Push To Remote
+        run: git push --follow-tags
