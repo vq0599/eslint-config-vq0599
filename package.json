@@ -1,15 +1,25 @@
 {
   "name": "eslint-config-vqzfss",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "main": "index.js",
   "repository": "git@github.com:vq0599/eslint-config-vqzfss.git",
   "author": "vq0599@outlook.com",
   "license": "MIT",
-  "devDependencies": {
-    "lerna": "^3.22.1"
-  },
   "scripts": {
-    "publish-latest": "lerna publish",
-    "publish-alpha": "lerna publish --dist-tag alpha"
+    "build": "node build/index.js"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "hjson": "^3.2.2"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^17.0.0"
   }
 }

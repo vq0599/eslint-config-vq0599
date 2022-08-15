@@ -1,0 +1,16 @@
+{
+  "extends":[
+    "standard"
+  ],
+  "rules": {
+    // import区域下方空一行
+    "import/newline-after-import": ["error", { "count": 1 }],
+
+    // 强制分号
+    "semi": ["error", "always"],
+    // 多行语法强制逗号
+    "comma-dangle": ["error", "always-multiline"],
+    // 函数名前面无空格
+    "space-before-function-paren": ["error", "never"]
+  }
+}
