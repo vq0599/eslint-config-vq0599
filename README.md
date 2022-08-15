@@ -1,2 +1,2 @@
-# eslint-config-vq0599
-ESLint config
+# eslint-config-vqzfss
+> ESLint Config
