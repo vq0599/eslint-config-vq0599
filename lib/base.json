@@ -12,6 +12,7 @@
         "count": 1
       }
     ],
+    "n/no-callback-literal": "off",
     "semi":
     [
       "error",
