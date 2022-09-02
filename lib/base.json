@@ -32,7 +32,8 @@
     [
       "error",
       {
-        "args": "after-used"
+        "args": "after-used",
+        "destructuredArrayIgnorePattern": "^_"
       }
     ]
   }
