@@ -14,6 +14,8 @@
     // 多行语法强制逗号
     "comma-dangle": ["error", "always-multiline"],
     // 函数名前面无空格
-    "space-before-function-paren": ["error", "never"]
+    "space-before-function-paren": ["error", "never"],
+    // 不允许未使用的的变量定义，必要的前置参数除外
+    "no-unused-vars": ["error", { "args": "after-used" }]
   }
 }
