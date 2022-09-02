@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vqzfss",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "index.js",
   "repository": "git@github.com:vq0599/eslint-config-vqzfss.git",
   "author": "vq0599@outlook.com",
